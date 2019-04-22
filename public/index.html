@@ -9,6 +9,19 @@
     />
     <script src="https://cdn.rawgit.com/progers/pathseg/master/pathseg.js"></script>
 
+    <script src="https://www.gstatic.com/firebasejs/5.10.0/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyBfI8jP_CcZqDxQ_hjq58JbV1O5Fseo9Ys",
+        authDomain: "nudge-3b8ce.firebaseapp.com",
+        databaseURL: "https://nudge-3b8ce.firebaseio.com",
+        projectId: "nudge-3b8ce",
+        storageBucket: "nudge-3b8ce.appspot.com",
+        messagingSenderId: "101163304514"
+      };
+      firebase.initializeApp(config);
+    </script>
     <meta name="theme-color" content="#000000" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
@@ -25,6 +38,8 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+    <script src="/src/index.js" defer></script>
+
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
